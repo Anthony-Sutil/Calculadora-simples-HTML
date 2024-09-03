@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+
+.campo, .input-resultado, button {
+    height: 37px; 
+    min-height: 37px;
+    max-height: 37px; 
+    text-align: center;
+}
+
+.campo {
+    height: 37px; 
+    width: 43px;
+    color: black;
+    background-color: #CCC;
+    border: 1px solid #CCC; 
+    }
+
+.input-resultado {
+    width: 75px;
+}
+
+button {
+    width: 50px;
+    background-color: #FF8000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+.limpar {
+    text-align: center;
+    font-size: 10px;
+}
+
+.botao:hover{
+    background-color: #EE5000;
+    border: none;
+}
+
+.campo:focus {
+    outline: none; 
+    border-color: #CCC; 
+}

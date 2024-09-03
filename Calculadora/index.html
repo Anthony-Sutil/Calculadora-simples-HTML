@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Calcular</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <input type="text" id="num1" class="campo"></input>
+        </div>
+        <div class="row">
+            <input type="text" id="num2" class="campo"></input>
+        </div>
+        <div class="row">
+            <button class="botao" onclick="somar()">+</button>
+        </div>
+        <div class="row">
+            <span> = </span>
+        </div>
+        <div class="row">
+            <input type="text" id="resultado" class="input-resultado"  placeholder="Resultado"  onfocus="removePlaceholder(this)"></input>
+        </div>
+        <div class="row">
+            <button class="limpar" onclick="limpar1()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <input type="text" id="num3" class="campo"></input>
+        </div>
+        <div class="row">
+            <input type="text" id="num4" class="campo"></input>
+        </div>
+        <div class="row">
+            <button class="botao" onclick="subtrair()">-</button>
+        </div>
+        <div class="row">
+            <span> = </span>
+        </div>
+        <div class="row">
+            <input type="text" id="resultado2" class="input-resultado"  placeholder="Resultado"  onfocus="removePlaceholder(this)"></input>
+        </div>
+        <div class="row">
+            <button class="limpar" onclick="limpar2()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <input type="text" id="num5" class="campo"></input>
+        </div>
+        <div class="row">
+            <input type="text" id="num6" class="campo"></input>
+        </div>
+        <div class="row">
+            <button class="botao" onclick="multiplicar()">*</button>
+        </div>
+        <div class="row">
+            <span> = </span>
+        </div>
+        <div class="row">
+            <input type="text" id="resultado3" class="input-resultado"  placeholder="Resultado" onfocus="removePlaceholder(this)" ></input>
+        </div>
+        <div class="row">
+            <button class="limpar" onclick="limpar3()">Limpar</button>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <div class="row">
+            <input type="text" id="num7" class="campo"></input>
+        </div>
+        <div class="row">
+            <input type="text" id="num8" class="campo"></input>
+        </div>
+        <div class="row">
+            <button class="botao" onclick="dividir()">/</button>
+        </div>
+        <div class="row">
+            <span> = </span>
+        </div>
+        <div class="row">
+            <input type="text" id="resultado4" class="input-resultado"  placeholder="Resultado"  onfocus="removePlaceholder(this)"></input>
+        </div>
+        <div class="row">
+            <button class="limpar" onclick="limpar4()">Limpar</button>
+        </div>
+    </div>
+
+</body>
+</html>
